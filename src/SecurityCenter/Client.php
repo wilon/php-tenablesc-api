@@ -35,6 +35,12 @@ class Client
     private $responseHistory;
 
     /**
+     * @var ApiInstance
+     */
+    private $apiInstance;
+
+
+    /**
      * Instantiate a new SecurityCenter client.
      *
      * @param HttpClient $httpClient
@@ -66,15 +72,19 @@ class Client
      */
     public function api($name)
     {
-        switch ($name) {
-            case 'user':
-                $api = new Api\User($this);
-                break;
-            default:
-                throw new InvalidArgumentException(sprintf('Undefined api instance called: "%s"', $name));
+        $className = "\SecurityCenter\Api\\" . ucfirst($name);
+
+        if (! class_exists($className)) {
+            throw new InvalidArgumentException(
+                sprintf('Undefined api instance called: "%s"', $name)
+            );
         }
 
-        return $api;
+        if (array_key_exists($className, $this->apiInstance)) {
+            return $this->apiInstance[$className];
+        }
+
+        return new $className($this);
     }
 
     /**

@@ -162,7 +162,6 @@ abstract class AbstractApi
      */
     protected function postRaw($path, $body, array $requestHeaders = array())
     {
-        $path = $this->rest($path);
         $response = $this->client->getHttpClient()->post(
             $path,
             $requestHeaders,

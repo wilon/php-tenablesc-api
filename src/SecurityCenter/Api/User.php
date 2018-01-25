@@ -2,10 +2,8 @@
 
 namespace SecurityCenter\Api;
 
-use SecurityCenter\Exception\InvalidArgumentException;
-
 /**
- * Getting user information.
+ * SecurityCenter user operation.
  *
  * @link   https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/User.html
  * @author Weilong Wang <github.com/wilon>
@@ -15,7 +13,7 @@ class User extends AbstractApi
     /**
      * Gets the list of Users.
      *
-     * @param  array  $fields The fields parameter should be specified along the query string
+     * @param  array  $fields
      *
      * @return array  The api return about userinfo.
      */
@@ -34,9 +32,6 @@ class User extends AbstractApi
      */
     public function associate($id, $fields = [])
     {
-        if (!$id) {
-            throw new InvalidArgumentException("User associated with {id}!");
-        }
         return $this->get("/user/$id", $fields);
     }
 
