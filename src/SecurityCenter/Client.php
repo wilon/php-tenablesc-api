@@ -80,11 +80,11 @@ class Client
             );
         }
 
-        if (array_key_exists($className, $this->apiInstance)) {
-            return $this->apiInstance[$className];
+        if (! array_key_exists($className, $this->apiInstance)) {
+            $this->apiInstance[$className] = new $className($this);
         }
 
-        return new $className($this);
+        return $this->apiInstance[$className];
     }
 
     /**
@@ -110,6 +110,10 @@ class Client
         ]));
         $body = ResponseMediator::getContent($response);
         $token = $body['response']['token'];
+        // $token = (new Api\Token)->login([
+        //     'username' => $username,
+        //     'password' => $password,
+        // ]);
 
         // Get sid
         $sid = '';
