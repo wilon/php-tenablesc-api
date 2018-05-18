@@ -5,7 +5,7 @@ namespace SecurityCenter\Api;
 /**
  * SecurityCenter AuditFile operation.
  *
- * @link   https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/AuditFile.html
+ * @link   https://docs.tenable.com/sccv/api/AuditFile.html
  * @author Weilong Wang <github.com/wilon>
  */
 class AuditFile extends AbstractApi

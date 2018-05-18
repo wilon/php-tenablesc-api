@@ -5,7 +5,7 @@ namespace SecurityCenter\Api;
 /**
  * SecurityCenter ticket operation.
  *
- * @link   https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/Ticket.html
+ * @link   https://docs.tenable.com/sccv/api/Ticket.html
  * @author Weilong Wang <github.com/wilon>
  */
 class Ticket extends AbstractApi

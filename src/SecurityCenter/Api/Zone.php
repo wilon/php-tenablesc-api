@@ -5,7 +5,7 @@ namespace SecurityCenter\Api;
 /**
  * SecurityCenter zone operation.
  *
- * @link   https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/Scan-Zone.html
+ * @link   https://docs.tenable.com/sccv/api/Scan-Zone.html
  * @author Weilong Wang <github.com/wilon>
  */
 class Zone extends AbstractApi

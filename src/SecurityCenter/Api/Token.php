@@ -5,7 +5,7 @@ namespace SecurityCenter\Api;
 /**
  * SecurityCenter token operation.
  *
- * @link   https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/Token.html
+ * @link   https://docs.tenable.com/sccv/api/Token.html
  * @author Weilong Wang <github.com/wilon>
  */
 class Token extends AbstractApi

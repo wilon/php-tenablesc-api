@@ -5,7 +5,7 @@ namespace SecurityCenter\Api;
 /**
  * SecurityCenter Config operation.
  *
- * @link   https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/Configuration.html
+ * @link   https://docs.tenable.com/sccv/api/Configuration.html
  * @author Weilong Wang <github.com/wilon>
  */
 class Config extends AbstractApi

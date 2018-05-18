@@ -5,7 +5,7 @@ namespace SecurityCenter\Api;
 /**
  * SecurityCenter analysis operation.
  *
- * @link   https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/Analysis.html
+ * @link   https://docs.tenable.com/sccv/api/Analysis.html
  * @author Weilong Wang <github.com/wilon>
  */
 class Analysis extends AbstractApi

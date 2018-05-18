@@ -5,7 +5,7 @@ namespace SecurityCenter\Api;
 /**
  * SecurityCenter scanResult operation.
  *
- * @link   https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/Scan-Result.html
+ * @link   https://docs.tenable.com/sccv/api/Scan-Result.html
  * @author Weilong Wang <github.com/wilon>
  */
 class ScanResult extends AbstractApi

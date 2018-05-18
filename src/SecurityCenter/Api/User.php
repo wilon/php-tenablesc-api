@@ -5,7 +5,7 @@ namespace SecurityCenter\Api;
 /**
  * SecurityCenter user operation.
  *
- * @link   https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/User.html
+ * @link   https://docs.tenable.com/sccv/api/User.html
  * @author Weilong Wang <github.com/wilon>
  */
 class User extends AbstractApi

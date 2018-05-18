@@ -5,7 +5,7 @@ namespace SecurityCenter\Api;
 /**
  * SecurityCenter policy operation.
  *
- * @link   https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/Scan-Policy.html
+ * @link   https://docs.tenable.com/sccv/api/Scan-Policy.html
  * @author Weilong Wang <github.com/wilon>
  */
 class Policy extends AbstractApi

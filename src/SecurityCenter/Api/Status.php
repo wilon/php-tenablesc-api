@@ -5,7 +5,7 @@ namespace SecurityCenter\Api;
 /**
  * SecurityCenter Status operation.
  *
- * @link   https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/Status.html
+ * @link   https://docs.tenable.com/sccv/api/Status.html
  * @author Weilong Wang <github.com/wilon>
  */
 class Status extends AbstractApi

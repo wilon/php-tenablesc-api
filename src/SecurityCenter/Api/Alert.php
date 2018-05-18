@@ -5,7 +5,7 @@ namespace SecurityCenter\Api;
 /**
  * SecurityCenter Alert operation.
  *
- * @link   https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/Alert.html
+ * @link   https://docs.tenable.com/sccv/api/Alert.html
  * @author Weilong Wang <github.com/wilon>
  */
 class Alert extends AbstractApi

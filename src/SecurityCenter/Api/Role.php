@@ -5,7 +5,7 @@ namespace SecurityCenter\Api;
 /**
  * SecurityCenter Role operation.
  *
- * @link   https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/Role.html
+ * @link   https://docs.tenable.com/sccv/api/Role.html
  * @author Weilong Wang <github.com/wilon>
  */
 class Role extends AbstractApi

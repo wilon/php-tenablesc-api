@@ -5,7 +5,7 @@ namespace SecurityCenter\Api;
 /**
  * SecurityCenter Asset operation.
  *
- * @link   https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/Asset.html
+ * @link   https://docs.tenable.com/sccv/api/Asset.html
  * @author Weilong Wang <github.com/wilon>
  */
 class Asset extends AbstractApi
