@@ -2,5 +2,5 @@
 
 *Developing...*
 
-https://support.tenable.com/support-center/cerberus-support-center/includes/widgets/sc_api/index.html
+https://docs.tenable.com/sccv/api/index.html
 
