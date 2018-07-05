@@ -70,7 +70,7 @@ class Scan extends AbstractApi
      */
     public function delete($id)
     {
-        return $this->delete("/scan/$id");
+        return $this->deleted("/scan/$id");
     }
 
     /**

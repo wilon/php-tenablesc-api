@@ -69,7 +69,7 @@ class Role extends AbstractApi
      */
     public function delete($id)
     {
-        return $this->delete("/role/$id");
+        return $this->deleted("/role/$id");
     }
 
 }

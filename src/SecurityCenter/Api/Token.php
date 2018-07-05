@@ -32,7 +32,7 @@ class Token extends AbstractApi
      */
     public function logout()
     {
-        return $this->delete('/token', $fields);
+        return $this->deleted('/token', $fields);
     }
 
 }

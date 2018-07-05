@@ -69,7 +69,7 @@ class Alert extends AbstractApi
      */
     public function delete($id)
     {
-        return $this->delete("/alert/$id");
+        return $this->deleted("/alert/$id");
     }
 
     /**
@@ -81,7 +81,7 @@ class Alert extends AbstractApi
      */
     public function execute($id)
     {
-        return $this->delete("/alert/$id/execute");
+        return $this->deleted("/alert/$id/execute");
     }
 
 }

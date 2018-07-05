@@ -222,7 +222,7 @@ abstract class AbstractApi
      *
      * @return array|string
      */
-    protected function delete($path, array $parameters = array(), array $requestHeaders = array())
+    protected function deleted($path, array $parameters = array(), array $requestHeaders = array())
     {
         $path = $this->rest($path);
         $response = $this->client->getHttpClient()->delete(

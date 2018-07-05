@@ -70,7 +70,7 @@ class Zone extends AbstractApi
      */
     public function delete($id)
     {
-        return $this->delete("/zone/$id");
+        return $this->deleted("/zone/$id");
     }
 
 }

@@ -70,7 +70,7 @@ class Policy extends AbstractApi
      */
     public function delete($id, $fields = [])
     {
-        return $this->delete("/policy/$id", $fields);
+        return $this->deleted("/policy/$id", $fields);
     }
 
     /**

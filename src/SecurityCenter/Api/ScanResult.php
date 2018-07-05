@@ -44,7 +44,7 @@ class ScanResult extends AbstractApi
      */
     public function delete($id)
     {
-        return $this->delete("/scanResult/$id");
+        return $this->deleted("/scanResult/$id");
     }
 
     /**

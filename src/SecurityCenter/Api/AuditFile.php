@@ -69,7 +69,7 @@ class AuditFile extends AbstractApi
      */
     public function delete($id)
     {
-        return $this->delete("/auditFile/$id");
+        return $this->deleted("/auditFile/$id");
     }
 
     /**

@@ -69,7 +69,7 @@ class Asset extends AbstractApi
      */
     public function delete($id)
     {
-        return $this->delete("/asset/$id");
+        return $this->deleted("/asset/$id");
     }
 
     /**
